@@ -1,0 +1,10 @@
+
+pip install setuptools wheel
+
+python setup.py sdist bdist_wheel
+
+pip install twine
+
+twine upload --verbose --repository-url https://upload.pypi.org/legacy/ dist/* -p pypi-AgEIcHlwaS5vcmcCJDdkOTBlOTEyLTUzMGYtNGRhOC04NzUxLTUzYmJjMmU3YmVhZQACKlszLCI4YjkzY2RmNy05YWRjLTQwYmYtYWE2OC04NmRjZDY5N2FiNDYiXQAABiCM1dtIwVlvICzKDZ56fUJ6MCCmN5eXMPBZd2YNS6NFrw
+
+
